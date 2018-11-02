@@ -16,6 +16,7 @@
 		228D476519F5DAA000DE9903 /* Photo_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228D476419F5DAA000DE9903 /* Photo_MapTests.swift */; };
 		228D477019F5DAFF00DE9903 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228D476F19F5DAFF00DE9903 /* LocationsViewController.swift */; };
 		22BB9BD519F5DD21000048C2 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB9BD419F5DD21000048C2 /* LocationCell.swift */; };
+		489671C321819E750090EE62 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489671C221819E750090EE62 /* MapKit.framework */; };
 		854B84F36EA3D6320A9066A4 /* Pods_Photo_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CAD02657950F855D9C55C3 /* Pods_Photo_Map.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		228D476F19F5DAFF00DE9903 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		22BB9BD419F5DD21000048C2 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		43CAD02657950F855D9C55C3 /* Pods_Photo_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photo_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489671C221819E750090EE62 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		56267E036B3FB8E35151F8F4 /* Pods-Photo Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Map.debug.xcconfig"; path = "Target Support Files/Pods-Photo Map/Pods-Photo Map.debug.xcconfig"; sourceTree = "<group>"; };
 		867E1A9B91344ABF1D4241A9 /* Pods-Photo Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Map.release.xcconfig"; path = "Target Support Files/Pods-Photo Map/Pods-Photo Map.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489671C321819E750090EE62 /* MapKit.framework in Frameworks */,
 				854B84F36EA3D6320A9066A4 /* Pods_Photo_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +153,7 @@
 		C53175EB32E8EEC8585BFFB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				489671C221819E750090EE62 /* MapKit.framework */,
 				12B190D8026AA9DA033871B1 /* Pods.framework */,
 				43CAD02657950F855D9C55C3 /* Pods_Photo_Map.framework */,
 			);
@@ -162,7 +166,6 @@
 				56267E036B3FB8E35151F8F4 /* Pods-Photo Map.debug.xcconfig */,
 				867E1A9B91344ABF1D4241A9 /* Pods-Photo Map.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -273,15 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Photo Map-checkManifestLockResult.txt",
 			);
@@ -295,15 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Photo Map/Pods-Photo Map-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
